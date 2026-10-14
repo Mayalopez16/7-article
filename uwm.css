@@ -1,5 +1,10 @@
 html {
     background-color: azure;
+    line-height: 1.4;
+    font-family: "crimson pro";
+}
+body{
+    margin: 0;
 }
 .wrapper{
     max-width: 600px;
@@ -9,15 +14,41 @@ html {
     background-color: plum;
     padding: 15px;
 }
+.site-quote{
+    font-weight:bold;
+}
+.site-header a{
+    color: black;
+}
 .site-main{
     background-color: yellow;
+    margin-top: 20px;
+    padding: 15px;
+    
 }
 .article-section{
     background-color: orange;
+    margin-top: 20px;
+    padding: 15px;
 }
 .callout{
     background-color: pink;
+    margin-top: 20px;
+    padding: 15px;
+    color: purple;
+    font-style: italic;
 }
 .site-footer{
     background-color: aquamarine;
+    margin-top: 20px;
+    padding: 15px;
 }
+.address{
+    border-top: 4px solid black;
+    padding-top: 10px;
+}
+
+.site-address{ 
+    margin-top: 3px;
+    background-color: black;
+}   
